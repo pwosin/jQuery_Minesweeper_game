@@ -1,4 +1,4 @@
-## [Preview](https://pwosin.github.io/JS-gameTicTacToe/)
+## [Preview](https://pwosin.github.io/jQuery_Minesweeper_game/)
       
     
 ## General info
