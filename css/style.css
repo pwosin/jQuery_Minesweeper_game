@@ -2,4 +2,4 @@
 
 #playBoard tr td { width: 30px; height: 30px; background-color: gray; border: 2px solid black; text-align: center; }
 
-#playBoard tr td p { padding-top: 5px; width: 30px; height: 30px; margin: auto; }
+#playBoard tr td p { padding-top: 5px; width: 30px; height: 30px; margin: auto; user-select: none; }
