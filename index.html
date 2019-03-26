@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Minesweeper</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="w-50 mx-auto pt-4 text-center"> Welcome in Minesweeper</h1>
+        </header>
+        <div class="w-50 mx-auto text-center pt-5">
+            <select id="levelSelect" class="form-control w-50 d-inline-block">
+                <option value="1">Easy</option>
+                <option value="2">Medium</option>
+                <option value="3">Hard</option>
+            </select>
+            <button id="start" class="btn btn-primary">Start game</button>
+        </div>
+        <div class="gameInfo w-50 mx-auto h2 py-4 text-center">
+            Play Game:
+        </div>
+        <div class="w-50 mx-auto pt-5 bg-light">
+            <table id='playBoard' class="mx-auto">
+            </table>
+        </div>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+        <script  src="js/script.js"></script>
+    </body>
+
+</html>

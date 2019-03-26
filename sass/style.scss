@@ -1,0 +1,22 @@
+
+.gameInfo {
+    height: 50px;
+} 
+  #playBoard {
+      tr {
+          td{
+              width: 30px;
+              height: 30px;
+              background-color: gray;
+              border: 2px solid black;
+              text-align: center;
+              p{
+                  padding-top: 5px;
+                  width: 30px;
+                  height: 30px;
+                  margin: auto;
+              }
+          }
+
+      }
+  }
